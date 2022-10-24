@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Marius/CLionProjects/Projets_SDL/Jeu_de_la_Vie/Fourmis.h
+stdio.h
+-
+SDL2/SDL.h
+-
+
+C:/Users/Marius/CLionProjects/Projets_SDL/Jeu_de_la_Vie/Vie.h
+stdio.h
+-
+SDL2/SDL.h
+-
+
+C:/Users/Marius/CLionProjects/Projets_SDL/Jeu_de_la_Vie/main.c
+Vie.h
+C:/Users/Marius/CLionProjects/Projets_SDL/Jeu_de_la_Vie/Vie.h
+Fourmis.h
+C:/Users/Marius/CLionProjects/Projets_SDL/Jeu_de_la_Vie/Fourmis.h
+
